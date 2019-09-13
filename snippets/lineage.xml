@@ -14,4 +14,18 @@
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
+  <project name="LineageOS/android_device_samsung_klte" path="device/samsung/klte" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_samsung_klte-common" path="device/samsung/klte-common" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="github" revision="lineage-16.0" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-16.0" />
+
+  <project name="Suicide-Squad-Rom/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-17.0"/>
+  <project name="Suicide-Squad-Rom/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-17.0"/>
+  <project name="Suicide-Squad-Rom/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-17.0"/>
+  <project name="Eamo5/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.0"/>
+
+  
 </manifest>
